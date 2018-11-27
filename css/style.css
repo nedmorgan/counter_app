@@ -1,0 +1,55 @@
+html {
+  font-size: 20px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+  background-color: #e06f06;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: table;
+  margin: 0 auto;
+}
+
+.counter {
+  list-style: none;
+  height: 75px;
+  width: auto;
+  font-size: 3em;
+}
+
+li {
+  text-align: center;
+  font-size: 3em;
+  float: left;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  font-size: 7em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 li{
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 3em;
+  }
+}
